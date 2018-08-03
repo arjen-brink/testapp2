@@ -27,7 +27,7 @@ app.use('/users', usersRouter);
 app.use('/birds', birds)
 
 app.get('/example/a', function (req, res) {
-  res.send('Hello from Arjen!')
+  res.send('Hello from Arjen!15')
 })
 
 app.get('/example/b', function (req, res, next) {
